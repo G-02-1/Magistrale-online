@@ -1,0 +1,21 @@
+Guida installazione tool necessari:
+
+Per installare powndebugger:
+
+$ git clone https://github.com/pwndbg/pwndbg.git
+$ cd pwndbg
+$ ./setup.sh
+$ cd ~
+$ nano .gdbinit >>	
+___________________________________________________
+
+	#source ~/.gef-2024.06.py
+	source /home/gianny/pwndbg/gdbinit.py
+___________________________________________________
+
+
+
+Per installare Ghidra:
+
+$ git clone https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
+$ sudo snap install ghidra
