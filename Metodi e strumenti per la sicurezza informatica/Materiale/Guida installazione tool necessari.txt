@@ -7,11 +7,13 @@ $ cd pwndbg
 $ ./setup.sh
 $ cd ~
 $ nano .gdbinit >>	
-___________________________________________________
+_______________________________________________________________
+							       |
+	#source ~/.gef-2024.06.py			       |  --> commentare la prima (riga se presente)
+	source /home/nome_utente_corrente/pwndbg/gdbinit.py    |  --> aggiungere (se assente)
+_______________________________________________________________|
 
-	#source ~/.gef-2024.06.py
-	source /home/gianny/pwndbg/gdbinit.py
-___________________________________________________
+Per scoprire il nome utente digitare "$ whoami".
 
 
 
@@ -19,3 +21,10 @@ Per installare Ghidra:
 
 $ git clone https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.2.1_build
 $ sudo snap install ghidra
+$ ghidra --> eseguendo questo comando verrà lanciato il tool
+
+___________________________________________________________________________________________
+
+Ghidra permetterà di creare un progetto con un file che possiamo importare dall'explorer e 
+disassemblerà in codice assembly e c permettendo di visualizzare tutto tramite interfaccia, 
+più immediata rispetto a gdb o radare2.
