@@ -16,7 +16,7 @@ continue
 
 # Binary filename
 
-exe = './server'
+exe = './nome_exe'
 
 # This will automatically get context arch, bits, os etc
 
