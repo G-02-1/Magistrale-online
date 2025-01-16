@@ -1,0 +1,99 @@
+Convenzione di chiamata e gestione dello Stack in architetture x86:
+
+Passaggio argomenti nella funzione main:
+Gli argomenti principali ( argc, argv, e envp) vengono generalmente passati tramite lo stack in quest'ordine:
+- argc: numero di argomenti sulla riga di comando.
+- argv: puntatore a un array di stringhe contenenti gli argomenti sulla riga di comando. 
+- envp: puntatore a un array di stringhe contenenti le variabili d'ambiente.
+
+Struttura dello Stack per una chiamata a funzione (incluso il main):
+
+- Return Address: prima di chiamare una funzione, il processore emette l'indirizzo alla prossima funzione, ma alla fine di essa deve sapere dove tornare.
+
+- Argomenti della funzione: solitamente vengono passati in ordine inverso rispetto a come sono disposti a livello testuale.
+
+- Variabili locali: all'interno di una funzione, lo spazio per le variabili locali (come var_78h e var_4h) viene allocato nello stack. Queste variabili vengono create quando la funzione inizia e vengono rimosse quando la funzione termina.
+
+esp -> extended stack pointer: è il registo che punta alla cima dello stack.
+
+0x04 (4), 0x08 (8), 0x0c (12), 0x010 (16) -> offset che rappresentano gli spostamenti relativi alla cima dello stack.
+
+[esp + 0x04]: L'indirizzo di ritorno è il primo elemento spinto nello stack prima della chiamata di funzione.
+
+[esp + 0x08]: argc è il primo argomento che viene pushato nello stack prima di entrare nella funzione main (e viene posto immediatamente dopo l'indirizzo di ritorno).
+
+[esp + 0x0c]: argv viene dopo argc, quindi viene pushato sopra argc.
+
+[esp + 0x10]: envp è l'ultimo dei tre argomenti passati alla funzione main
+
+L'ordine specifico di argomenti nello stack (envp, argv, argc...) è una convenzione (ABI - Application Binary Interface) che permette alle funzioni (come main) di accedere agli argomenti in modo prevedibile e standard. GCC, come compilatore, segue queste convenzioni.
+
+
+Cos'è una variabile d'ambiente?
+
+Una variabile d'ambiente è un valore (una stringa di testo) che può essere utilizzata da un programma o da un processo in esecuzione nel sistema operativo. Pensa alle variabili d'ambiente come a delle "etichette" che contengono informazioni utili per il funzionamento di un software.
+
+Queste "etichette" sono accessibili globalmente da tutti i processi avviati all'interno della sessione corrente (o globalmente per l'intero sistema, se configurato opportunamente), in modo tale che un'applicazione non debba essere a conoscenza della posizione fisica di file e cartelle per poter svolgere le proprie funzioni.
+
+
+$ export <NOME_VAR>=<Value> -> imposta una env_var
+$ unset <NOME_VAR> -> rimuove la env_var
+$ env -> mostra tutte le env_vars
+
+________________________________
+
+CONVENZIONE DI CHIAMATA ASSEMBLY
+
+cdecl: 
+	Nei binari a 32 bit in linux gli argomenti delle funzioni vengono passati nello stack in ordine inverso:
+	int add(int a, int b, int c) {
+		return a + b + c;
+	} --> verranno caricati prima c, poi b e infine a.
+
+SysV: 
+	Nei binari a 64-bit gli argomenti delle funzioni vengono prima passati in specifici registri:
+		1. RDI
+		2. RSI
+		3. RDX
+		4. RCX
+		5. R8
+		6. R9
+	Ogni argomento avanzato verrà poi caricato in ordine inverso secondo la logica di cdecl.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
