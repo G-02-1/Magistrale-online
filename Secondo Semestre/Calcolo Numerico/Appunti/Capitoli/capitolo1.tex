@@ -1,0 +1,77 @@
+\chapter{Introduzione}
+\section{Come funziona l'esame?}
+Il professore prende le presenze e assegnerà dei progettini, solo con presenze e progrttini, si arriva al 18.
+L'esame consiste in un esercizio, una domanda teorica e poi un orale.
+
+\section{Concetti Iniziali}
+\begin{definition}
+    La matematica del continuo si basa sul concetto di numero reale ed è ampiamente usata nelle scienze applicate. 
+\end{definition}
+\begin{definition}
+    Il calcolo numerico è una branca della matematica che si occupa dello sviluppo di algoritmi per la risoluzione 
+    dei problemi alla matematica del continuo.
+\end{definition}
+Di base, il calcolo numerico si occupa i problemi di risoluzione prettamente numerici e dei problemi di 
+approssimazione.
+
+\subsection{Problemi della matematica del continuo}
+I problemi classici nella matematica del continuo sono come:
+\textbf{La risoluzione di funzioni} come $\mathit{f}(x) = 0$, dove $x \in [a,b] \subset \mathbb{R}$.
+
+\newpage
+\begin{notion}
+    Un'equazione si dice risolubile elementarmente se esiste una formula risolutiva, o un procedimento, che permette
+    di esprimere la soluzione partendo dai dati per mezzo di funzioni elementari\myfootnote{
+        Le funzioni matematiche elementari sono:
+        \begin{itemize}
+            \item somma, differenza, prodotto e divisione.
+            \item estrazioni di radici: $\sqrt[n]{n}$
+            \item le funzioni trigonometriche 
+            \item esponenziali e logaritmici
+        \end{itemize} 
+    } 
+\end{notion}
+Tra le funzioni elementari, somma e sottrazione sono le più problematiche, perché comportano moltissimi errori di 
+approssimazione.
+\newline
+Il primo problema consiste nello studiare l'esistenza della soluzione, secondariamente, tale soluzione deve essere unica.
+Importantissimo è anche studiare il tipo di errore, dal punto di vista numerico, in modo da riuscire a capire quando 
+un'approssimazione è applicabile o meno.
+\todo{carrellata di definizioni su integrale e altre funzioni, quando è continua? quando esiste? come la approssimiamo? come la risolviamo?}
+\begin{definition}
+    Gli algoritmi di calcolo numerico forniscono, in generale, solo un'approssimazione della soluzione del problema della matematica del 
+    continuo che si vuole risolvere. 
+\end{definition}
+Tale approssimazione può essere buona quanto si vuole. IL prezzo che si paga per un'approssimazione migliore è il tempo di esexuzione 
+dell'algoritmo.
+Tuttavia il "check" sull'approssimazione non è sempre fattibile poiché nella realtà non conosciamo la soluzione esatta di quello che stiamo 
+appprossimando.
+\newline
+\todo{subsubsection-Esempio di problema}
+Ogni volta che sviluppiamo un algoritmo di calcolo, bisogna verificare la convergenza, secondariamente dobbiamo troncare $n$ in base allo 
+studio di convergenza, nell'esempio di problema $\sqrt{a}$ il metodo di Newtono ha bisogno di $n=3$.
+
+\newpage
+In questa branca della matematica si procede sostituendo le tecniche di risoluzione del continuo con tecniche numeriche.
+Come ad esempio la soluzione di Riemann per l'integrale\myfootnote{
+    COnsiste nell'andare a scomporre la figura sottostante all'integrale in piccole sezioni da andare a sommare e ad approssimare.
+} 
+I computer commettono errori, poiché anch'essi eseguono approssimazioni, come l'errore round-off (di arrotondamento: arrotondamento o 
+troncamento nel senso che quando si usa un computer si possono commettere questi errori che non sono sinonimo di quelli che seguono, 
+anche se si usano gli stessi termini).
+\todo{Approfondire sugli errori}
+
+\subsection{Radici}
+Dati in ingresso: $a\in\mathbb{R}, a > 0$
+\newline
+\subsubsection{Schema Iterativo (5 punti essenziali):}
+\begin{enumerate}
+    \item Schema ricorsivo: 
+    \begin{displaymath}
+        x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n}). \qquad n = 0, 1, 2, ...
+    \end{displaymath}
+    \item Soluzione iniziale (punto di partenza): $x_0 > 0$
+    \item Convergenza $\lim_{a \rightarrow \infty}(x_n = \sqrt{a})$
+    \item Velocità di convergenza, quanto più $x_0$ è prossimo alla radice tanto migliore è la convergenza dell'algoritmo
+    \item Criterio di arresto: \textit{Quando mi fermo per avere una buona approssimazione?} $x_n - x_{n-1} < \epsilon$.
+\end{enumerate}

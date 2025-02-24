@@ -1,0 +1,85 @@
+Global Offset Table (GOT): 
+
+La global offset table è una sezione dentro un programma che si occupa di mantenere gli indirizzi a funzioni che sono linkate dinamicamente.
+Come si evince chiaramente dalle calling convention alcune funzioni vengono ridotte a codice binario, invece le funzioni comuni (come quelle di libc) sono legate 
+nel programma e possono essere salvate una sola volta nel disco ed essere riusate in ogni programma.
+Solitamente tutte le librerie dinamiche vengono caricate in modo LAZY, ovvero, assieme al main del programma durante in fase di lancio.
+Tutte queste funzioni non verranno mappate finché non verranno chiamate per la prima volta.
+Per evitare di cercare nelle librerie condivise ogni volta che viene chiamata una funzione, il risultato della visita viene salvato nel GOT.
+Le implicazioni sono le seguenti:
+	1. Il GOT contiene puntatori a librerie che si muovono attraverso l'ASLR.
+	2. Il GOT è sovrascrivibile.
+Queste due informazioni sono molto utili nell'ambito della ROP (Return Oriented Programming).
+Finché l'indirizzo della funzione non viene riconosciuto il GOT punterà ad un'entrata nel Procedure Linkage Table (PLT), un piccolo "stub" che è il responsabile del collegamento dinamico con il nome effettivo della funzione.
+
+____________________________
+
+Format String Vulnerability:
+
+Una format string vulnerability è un bug dove l'input viene passato come argomento al printf e scanf o altre funzioni che appartengono a questa famiglia di funzioni.
+Cosa possiamo fare?
+Se passiamo come argomento ad uno scanf una stringa di questo tipo "%x.%x.%x.%x" il printf popperà dallo stack dei valori e li stamperà in esadecimale, tali valori potrebbero costituire informazioni sensibili.
+Un altro argomento simpatico è "%n$x" dove n è l'indice decimale dell'argomento che vogliamo prelevare, printf stamperà quel dato.
+Alla x inserire la formattazione: l -> long, ll -> long long, x -> exadecimal, p -> pointer ecc.
+
+ROP (Return Oriented Programming):
+
+La ROP ha come idea di base quella di concatenare piccoli snippet di codice assembly tramite lo stack control per far si che un programma faccia cose ancora più complesse.
+Avere il controllo dello stack (o perlomeno la conoscenza di tale informazione) ci permette 
+di prevedere il prossimo passo di un algoritmo e sovrascriverne le stesse istruzioni mutandone il comportamento.
+
+Lo stack e le librerie dinamiche si "muovono intorno" ogni volta che un programma sta runnando, il che significa che non possiamo semplicemente usare dati sullo stack o stringhe in libc come nostro argomento.
+Abbiamo bisogno di un nome globale molto conveniente che rappresenti una locazione nota nel binario.
+
+-------------------------------------------------------------------------------------
+Tutorial introduzione alla binary exploitation ed esercizi:                         |
+https://www.youtube.com/watch?v=wa3sMSdLyHw&list=PLHUKi1UlEgOIc07Rfk2Jgb5fZbxDPec94 |
+-------------------------------------------------------------------------------------
+
+Nei binari a 64-bit è più difficile passare argomenti alle funzioni. L'idea di base di sovrascrivere il contenuto dell'RIP è la stessa però gli argomenti saranno in registri di programmi a 64-bit (diversi da quelli a 32).
+Nel momento in cui il sistema sta runnando dobbiamo trovare un modo per controllare il registro RDI.
+Possiamo usare dei piccoli snippet di codice assembly che chiameremo "gadget", questi gadget vengono poppati dallo stack e concatenati tramite le return.
+Se per esempio ci seve controllare RDI e RSI dovremmo cercare due gadget nel programma in questione e usarli in questo modo:
+________________________________
+
+0x400c01: pop rdi; ret
+0x400c03: pop rsi; pop r15; ret
+________________________________
+
+Possiamo settare una chiamata finta allo stack con questi gadget ed eseguirli in sequenza, poppando i valori controlliamo nei registri e poi saltiamo al sistema.
+
+---------------------------------------------------------------------
+Esempio a fine pagina:                                              |
+https://ctf101.org/binary-exploitation/return-oriented-programming/ |
+---------------------------------------------------------------------
+
+______________________
+
+Buffer
+
+Un buffer è un qualsiasi spazio della memoria in cui vengono salvati dei dati.
+Dato che i buffer contengono comunemente input utente, errori durante la scrittura su essi potrebbero causare la scrittura di dati controllati dall'attaccante al di fuori dello spazio dei buffer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
