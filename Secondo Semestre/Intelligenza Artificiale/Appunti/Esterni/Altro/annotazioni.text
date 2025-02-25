@@ -1,0 +1,51 @@
+Tabella 5x5:
+
+\usepackage{amsmath} % necessario per alcuni simboli matematici
+\usepackage{array}   % per una maggiore flessibilità nella formattazione
+
+\begin{table}[h!] % h! indica che cercherà di posizionare la tabella qui se possibile
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Colonna 1 & Colonna 2 & Colonna 3 & Colonna 4 & Colonna 5 \\ \hline
+Riga 2, Col 1 & Riga 2, Col 2 & Riga 2, Col 3 & Riga 2, Col 4 & Riga 2, Col 5 \\ \hline
+Riga 3, Col 1 & Riga 3, Col 2 & Riga 3, Col 3 & Riga 3, Col 4 & Riga 3, Col 5 \\ \hline
+Riga 4, Col 1 & Riga 4, Col 2 & Riga 4, Col 3 & Riga 4, Col 4 & Riga 4, Col 5 \\ \hline
+Riga 5, Col 1 & Riga 5, Col 2 & Riga 5, Col 3 & Riga 5, Col 4 & Riga 5, Col 5 \\ \hline
+\end{tabular}
+\caption{Una tabella 5x5 di esempio.}
+\label{tab:mia_tabella}
+\end{table}
+
+INSERIRE UN'IMMAGINE
+
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.4\textwidth]{imgs/nome.png} 
+    \caption{bla bla bla \cite{se vuoi tu}.} 
+    \label{fig:bla bla bla} 
+\end{figure}
+
+Personalizzare il testo 
+
+% \textbf{} : testo in grassetto
+% \textit{} : testo in corsivo 
+
+
+
+
+
+
+
+STRUTTURA DEL CORSO:
+
+Analisi degli errori numerici
+Approssimazione numerica di funzioni
+Integrazione Numerica
+Sistemi lineari
+Equanzioni differenziali  
+
+Libri consigliati:
+Valeriano Comincioli. Analisi numerica: metodi, modelli, applicazioni.
+Alfio Quarteroni, Riccardo Sacco, Fausto Saleri. Matematica numerica.
+Dispense online.
