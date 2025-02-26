@@ -2,12 +2,4 @@
 \babel@toc {italian}{}\relax 
 \contentsline {chapter}{Indice}{2}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Introduzione}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Come funziona l'esame?}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Concetti Iniziali}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Problemi della matematica del continuo}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Radici}{5}{subsection.1.2.2}%
-\contentsline {subsubsection}{Schema Iterativo (5 punti essenziali):}{5}{section*.6}%
-\contentsline {subsection}{\numberline {1.2.3}Iterazione di Punto fisso}{5}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Metodi e processi iterativi}{9}{subsection.1.2.4}%
-\contentsline {subsubsection}{Problema di ottimizzazione globale}{11}{section*.21}%
-\contentsline {chapter}{\numberline {2}Analisi degli errori numerici }{16}{chapter.2}%
+\contentsline {chapter}{\numberline {2}}{4}{chapter.2}%

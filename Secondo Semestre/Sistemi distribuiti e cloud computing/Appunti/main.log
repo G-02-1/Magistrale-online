@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.5)  26 FEB 2025 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.5)  26 FEB 2025 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex"
-(d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex
+**"d:/Università/Magistrale-online/Secondo Semestre/Sistemi distribuiti e cloud computing/Appunti/main.tex"
+(d:/Università/Magistrale-online/Secondo Semestre/Sistemi distribuiti e cloud computing/Appunti/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -888,14 +888,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
- (main.aux
-
-LaTeX Warning: Label `fig:glob_ott_amm_reg' multiply defined.
-
-
-LaTeX Warning: Label `fig:glob_ott_amm_reg' multiply defined.
-
-)
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -1019,15 +1012,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.130 \end{dedication}
                        [1
 
-] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1036,200 +1021,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Capitolo 1.
-[3
+) (capitoli/capitolo2.tex [3
 
 ]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 40.
-
-Overfull \hbox (0.66624pt too wide) in paragraph at lines 40--40
-[][][]\OT1/cmr/m/n/12 carrellata 
- []
-
-
-Overfull \hbox (0.66624pt too wide) in paragraph at lines 40--40
-[][][]\OT1/cmr/m/n/12 carrellata 
- []
-
-
-Overfull \hbox (26.97292pt too wide) in paragraph at lines 50--50
-[][][]\OT1/cmr/m/n/12 subsubsection- 
- []
-
-
-Overfull \hbox (26.97292pt too wide) in paragraph at lines 50--50
-[][][]\OT1/cmr/m/n/12 subsubsection- 
- []
-
-
-LaTeX Warning: Marginpar on page 4 moved.
-
-[4]
-Overfull \hbox (20.24521pt too wide) in paragraph at lines 62--62
-[][][]\OT1/cmr/m/n/12 Approfondire 
- []
-
-
-Overfull \hbox (20.24521pt too wide) in paragraph at lines 62--62
-[][][]\OT1/cmr/m/n/12 Approfondire 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-[5] [6]
-<Esterni/Altro/imgs/20250226_091358.jpg, id=125, 2143.0464pt x 1136.0844pt>
-File: Esterni/Altro/imgs/20250226_091358.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_091358.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_091358.jpg  used on input line 118.
-(pdftex.def)             Requested size: 398.3386pt x 211.16043pt.
-
-Overfull \hbox (2.29817pt too wide) in paragraph at lines 123--123
-[][][]\OT1/cmr/m/n/12 commenti 
- []
-
-
-Overfull \hbox (2.29817pt too wide) in paragraph at lines 123--123
-[][][]\OT1/cmr/m/n/12 commenti 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
-
- []
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-
-Overfull \hbox (5.88841pt too wide) in paragraph at lines 146--146
-[][][]\OT1/cmr/m/n/12 continuare 
- []
-
-
-Overfull \hbox (5.88841pt too wide) in paragraph at lines 146--146
-[][][]\OT1/cmr/m/n/12 continuare 
- []
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-[7 <./Esterni/Altro/imgs/20250226_091358.jpg>]
-<Esterni/Altro/imgs/20250226_095026.jpg, id=141, 1676.2625pt x 1197.47375pt>
-File: Esterni/Altro/imgs/20250226_095026.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_095026.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_095026.jpg  used on input line 160.
-(pdftex.def)             Requested size: 199.1693pt x 142.26543pt.
-<Esterni/Altro/imgs/20250226_095154.jpg, id=142, 1272.755pt x 959.585pt>
-File: Esterni/Altro/imgs/20250226_095154.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_095154.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_095154.jpg  used on input line 176.
-(pdftex.def)             Requested size: 199.1693pt x 150.15442pt.
- [8 <./Esterni/Altro/imgs/20250226_095026.jpg> <./Esterni/Altro/imgs/20250226_095154.jpg>]
-<Esterni/Altro/imgs/20250226_095648.jpg, id=151, 492.1587pt x 355.5684pt>
-File: Esterni/Altro/imgs/20250226_095648.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_095648.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_095648.jpg  used on input line 185.
-(pdftex.def)             Requested size: 239.00558pt x 172.6729pt.
-<Esterni/Altro/imgs/20250226_103050.jpg, id=152, 1840.8775pt x 1465.475pt>
-File: Esterni/Altro/imgs/20250226_103050.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_103050.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_103050.jpg  used on input line 194.
-(pdftex.def)             Requested size: 318.67209pt x 253.68916pt.
- [9 <./Esterni/Altro/imgs/20250226_095648.jpg> <./Esterni/Altro/imgs/20250226_103050.jpg>]
-Overfull \hbox (348.13525pt too wide) detected at line 210
-\OT1/cmr/m/n/12 
- = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; x[]; []  ; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 D \OMS/cmsy/m/n/12 ^^R \U/msb/m/n/12 R[] \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 : j \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; []  ; m\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 D \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; x[]; []  ; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 R[] \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 a[] < b[] \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 a[] < b[]:a[] < b[]: i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; []  ; n\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 :
- []
-
-<Esterni/Altro/imgs/20250226_104634.jpg, id=159, 1871.99374pt x 1555.8125pt>
-File: Esterni/Altro/imgs/20250226_104634.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_104634.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_104634.jpg  used on input line 217.
-(pdftex.def)             Requested size: 318.67209pt x 264.84073pt.
-[10 <./Esterni/Altro/imgs/20250226_104634.jpg>]
-
-LaTeX Warning: Marginpar on page 11 moved.
-
-<Esterni/Altro/imgs/20250226_105033.jpg, id=166, 2890.8pt x 1641.13126pt>
-File: Esterni/Altro/imgs/20250226_105033.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_105033.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_105033.jpg  used on input line 227.
-(pdftex.def)             Requested size: 318.67209pt x 180.90062pt.
-<Esterni/Altro/imgs/20250226_105447.jpg, id=167, 2238.3625pt x 602.25pt>
-File: Esterni/Altro/imgs/20250226_105447.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/20250226_105447.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/20250226_105447.jpg  used on input line 240.
-(pdftex.def)             Requested size: 318.67209pt x 85.7388pt.
-[11 <./Esterni/Altro/imgs/20250226_105033.jpg> <./Esterni/Altro/imgs/20250226_105447.jpg>]
-<Esterni/Altro/imgs/t1.jpg, id=175, 808.01875pt x 512.91624pt>
-File: Esterni/Altro/imgs/t1.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t1.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t1.jpg  used on input line 257.
-(pdftex.def)             Requested size: 239.00558pt x 151.71596pt.
-<Esterni/Altro/imgs/t2.jpg, id=176, 853.1875pt x 491.8375pt>
-File: Esterni/Altro/imgs/t2.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t2.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t2.jpg  used on input line 265.
-(pdftex.def)             Requested size: 239.00558pt x 137.7811pt.
- [12 <./Esterni/Altro/imgs/t1.jpg> <./Esterni/Altro/imgs/t2.jpg>]
-<Esterni/Altro/imgs/t3.jpg, id=184, 805.0075pt x 527.9725pt>
-File: Esterni/Altro/imgs/t3.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t3.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t3.jpg  used on input line 273.
-(pdftex.def)             Requested size: 239.00558pt x 156.7495pt.
-<Esterni/Altro/imgs/t4.jpg, id=185, 885.3075pt x 552.0625pt>
-File: Esterni/Altro/imgs/t4.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t4.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t4.jpg  used on input line 279.
-(pdftex.def)             Requested size: 239.00558pt x 149.03358pt.
-<Esterni/Altro/imgs/t5.jpg, id=186, 826.08624pt x 548.0475pt>
-File: Esterni/Altro/imgs/t5.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t5.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t5.jpg  used on input line 285.
-(pdftex.def)             Requested size: 239.00558pt x 158.56175pt.
- [13 <./Esterni/Altro/imgs/t3.jpg> <./Esterni/Altro/imgs/t4.jpg> <./Esterni/Altro/imgs/t5.jpg>]
-<Esterni/Altro/imgs/t6.jpg, id=194, 808.01875pt x 564.1075pt>
-File: Esterni/Altro/imgs/t6.jpg Graphic file (type jpg)
-<use Esterni/Altro/imgs/t6.jpg>
-Package pdftex.def Info: Esterni/Altro/imgs/t6.jpg  used on input line 292.
-(pdftex.def)             Requested size: 239.00558pt x 166.85785pt.
- [14 <./Esterni/Altro/imgs/t6.jpg>]) (capitoli/capitolo2.tex [15]
 Capitolo 2.
 ) (capitoli/capitolo3.tex) (capitoli/capitolo4.tex) (capitoli/capitolo5.tex) (capitoli/capitolo6.tex)
 
 LaTeX Warning: Empty bibliography on input line 146.
 
-[16
+[4
 
 ] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 10B070D853B4E46C3F32BF8AF549FE31;1958.
+(rerunfilecheck)             Checksum: 0CA5EB6BC90B10C5D44B398A95BA0AC4;212.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42588 strings out of 474486
- 974178 string characters out of 5743755
- 1951542 words of memory out of 5000000
- 64162 multiletter control sequences out of 15000+600000
- 569929 words of font info for 79 fonts, out of 8000000 for 9000
+ 42108 strings out of 474486
+ 963279 string characters out of 5743755
+ 1930542 words of memory out of 5000000
+ 63774 multiletter control sequences out of 15000+600000
+ 560838 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,133p,803b,1345s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\giova\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 4636959 bytes).
+ 102i,5n,133p,824b,1345s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (5 pages, 50614 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
