@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.5)  24 FEB 2025 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.5)  26 FEB 2025 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,7 +689,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \c@definition=\count447
 \c@notion=\count448
 \c@conjecture=\count449
-\c@myfootnote=\count450
+\c@nb=\count450
+\c@ex=\count451
+\c@myfootnote=\count452
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen278
@@ -701,19 +703,19 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@cellbox=\box66
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count451
+\c@float@type=\count453
 \float@exts=\toks48
 \float@box=\box67
 \@float@everytoks=\toks49
 \@floatcapt=\box68
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count452
-\csq@gtype=\count453
-\csq@glevel=\count454
-\csq@qlevel=\count455
-\csq@maxlvl=\count456
-\csq@tshold=\count457
+\csq@reset=\count454
+\csq@gtype=\count455
+\csq@glevel=\count456
+\csq@qlevel=\count457
+\csq@maxlvl=\count458
+\csq@tshold=\count459
 \csq@ltx@everypar=\toks50
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -724,10 +726,10 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/numprint\numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count458
-\c@nprt@mantissa@digitsafter=\count459
-\c@nprt@exponent@digitsbefore=\count460
-\c@nprt@exponent@digitsafter=\count461
+\c@nprt@mantissa@digitsbefore=\count460
+\c@nprt@mantissa@digitsafter=\count461
+\c@nprt@exponent@digitsbefore=\count462
+\c@nprt@exponent@digitsafter=\count463
 \nprt@digitwidth=\skip97
 \nprt@sepwidth=\skip98
 \nprt@decimalwidth=\skip99
@@ -735,12 +737,12 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \nprt@digittoks=\toks51
 \nprt@pretoks=\toks52
 \nprt@posttoks=\toks53
-\nprt@thisdigit=\count462
-\nprt@curpos=\count463
-\nprt@rndpos=\count464
-\c@nprt@digitsfirstblock=\count465
-\c@nprt@blockcnt=\count466
-\c@nprt@cntprint=\count467
+\nprt@thisdigit=\count464
+\nprt@curpos=\count465
+\nprt@rndpos=\count466
+\c@nprt@digitsfirstblock=\count467
+\c@nprt@blockcnt=\count468
+\c@nprt@cntprint=\count469
  No configuration file `numprint.cfg' found.) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
@@ -748,33 +750,33 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
 \pgfplots@tmpa=\dimen280
-\c@pgfplots@coordindex=\count468
-\c@pgfplots@scanlineindex=\count469
+\c@pgfplots@coordindex=\count470
+\c@pgfplots@scanlineindex=\count471
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks57
 \t@pgf@tokb=\toks58
 \t@pgf@tokc=\toks59
 (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count470
+\c@pgfplotsarray@tmp=\count472
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count471
+\c@pgfplotstable@counta=\count473
 \t@pgfplotstable@a=\toks60
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count472
+\c@pgfplotslibrarysurf@no=\count474
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen281
 \pgfdecoratedremainingdistance=\dimen282
 \pgfdecoratedinputsegmentcompleteddistance=\dimen283
 \pgfdecoratedinputsegmentremainingdistance=\dimen284
 \pgf@decorate@distancetomove=\dimen285
-\pgf@decorate@repeatstate=\count473
+\pgf@decorate@repeatstate=\count475
 \pgfdecorationsegmentamplitude=\dimen286
 \pgfdecorationsegmentlength=\dimen287
 )
 \tikz@lib@dec@box=\box69
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count474
+\pgfplots@numplots=\count476
 \pgfplots@xmin@reg=\dimen288
 \pgfplots@xmax@reg=\dimen289
 \pgfplots@ymin@reg=\dimen290
@@ -813,11 +815,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count475
+\c@section@level=\count477
 )
 \@linkdim=\dimen294
-\Hy@linkcounter=\count476
-\Hy@pagecounter=\count477
+\Hy@linkcounter=\count478
+\Hy@pagecounter=\count479
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -825,7 +827,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count478
+\Hy@SavedSpaceFactor=\count480
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -838,7 +840,7 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count479
+\c@Hy@tempcnt=\count481
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen295
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -846,7 +848,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count480
+\Fld@menulength=\count482
 \Field@Width=\dimen296
 \Fld@charsize=\dimen297
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -860,9 +862,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count481
-\c@Item=\count482
-\c@Hfootnote=\count483
+\Hy@abspage=\count483
+\c@Item=\count484
+\c@Hfootnote=\count485
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -871,8 +873,8 @@ File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count484
-\c@bookmark@seq@number=\count485
+\Fld@listcount=\count486
+\c@bookmark@seq@number=\count487
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -886,27 +888,34 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
- (main.aux)
+ (main.aux
+
+LaTeX Warning: Label `fig:glob_ott_amm_reg' multiply defined.
+
+
+LaTeX Warning: Label `fig:glob_ott_amm_reg' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -944,16 +953,16 @@ LaTeX Font Info:    ... okay on input line 82.
 
 (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count486
+\scratchcounter=\count488
 \scratchdimen=\dimen298
 \scratchbox=\box70
-\nofMPsegments=\count487
-\nofMParguments=\count488
+\nofMPsegments=\count489
+\nofMParguments=\count490
 \everyMPshowfont=\toks61
-\MPscratchCnt=\count489
+\MPscratchCnt=\count491
 \MPscratchDim=\dimen299
-\MPnumerator=\count490
-\makeMPintoPDFobject=\count491
+\MPnumerator=\count492
+\makeMPintoPDFobject=\count493
 \everyMPtoPDFconversion=\toks62
 ) (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -961,8 +970,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\giova\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \it@ocap on input line 82.
-LaTeX Info: Redefining \it@ccap on input line 82.
+LaTeX Info: Redefining \it@ocap on input line 84.
+LaTeX Info: Redefining \it@ccap on input line 84.
 
 
 File italian.ldf warning: 
@@ -970,7 +979,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 82.
+italian.ldf    on input line 84.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -991,11 +1000,11 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 82.
-Package biblatex Info: Reference segment=0 on input line 82.
+Package biblatex Info: Reference section=0 on input line 84.
+Package biblatex Info: Reference segment=0 on input line 84.
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 84.
 (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1007,7 +1016,7 @@ Package hyperref Info: Link coloring OFF on input line 82.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 \end{dedication}
+l.130 \end{dedication}
                        [1
 
 ] (main.toc
@@ -1069,37 +1078,158 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-) (capitoli/capitolo2.tex [5]
+[5] [6]
+<Esterni/Altro/imgs/20250226_091358.jpg, id=125, 2143.0464pt x 1136.0844pt>
+File: Esterni/Altro/imgs/20250226_091358.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_091358.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_091358.jpg  used on input line 118.
+(pdftex.def)             Requested size: 398.3386pt x 211.16043pt.
+
+Overfull \hbox (2.29817pt too wide) in paragraph at lines 123--123
+[][][]\OT1/cmr/m/n/12 commenti 
+ []
+
+
+Overfull \hbox (2.29817pt too wide) in paragraph at lines 123--123
+[][][]\OT1/cmr/m/n/12 commenti 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
+
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+Overfull \hbox (5.88841pt too wide) in paragraph at lines 146--146
+[][][]\OT1/cmr/m/n/12 continuare 
+ []
+
+
+Overfull \hbox (5.88841pt too wide) in paragraph at lines 146--146
+[][][]\OT1/cmr/m/n/12 continuare 
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+[7 <./Esterni/Altro/imgs/20250226_091358.jpg>]
+<Esterni/Altro/imgs/20250226_095026.jpg, id=141, 1676.2625pt x 1197.47375pt>
+File: Esterni/Altro/imgs/20250226_095026.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_095026.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_095026.jpg  used on input line 160.
+(pdftex.def)             Requested size: 199.1693pt x 142.26543pt.
+<Esterni/Altro/imgs/20250226_095154.jpg, id=142, 1272.755pt x 959.585pt>
+File: Esterni/Altro/imgs/20250226_095154.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_095154.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_095154.jpg  used on input line 176.
+(pdftex.def)             Requested size: 199.1693pt x 150.15442pt.
+ [8 <./Esterni/Altro/imgs/20250226_095026.jpg> <./Esterni/Altro/imgs/20250226_095154.jpg>]
+<Esterni/Altro/imgs/20250226_095648.jpg, id=151, 492.1587pt x 355.5684pt>
+File: Esterni/Altro/imgs/20250226_095648.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_095648.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_095648.jpg  used on input line 185.
+(pdftex.def)             Requested size: 239.00558pt x 172.6729pt.
+<Esterni/Altro/imgs/20250226_103050.jpg, id=152, 1840.8775pt x 1465.475pt>
+File: Esterni/Altro/imgs/20250226_103050.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_103050.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_103050.jpg  used on input line 194.
+(pdftex.def)             Requested size: 318.67209pt x 253.68916pt.
+ [9 <./Esterni/Altro/imgs/20250226_095648.jpg> <./Esterni/Altro/imgs/20250226_103050.jpg>]
+Overfull \hbox (348.13525pt too wide) detected at line 210
+\OT1/cmr/m/n/12 
+ = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; x[]; []  ; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 D \OMS/cmsy/m/n/12 ^^R \U/msb/m/n/12 R[] \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 : j \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; []  ; m\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 D \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; x[]; []  ; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 R[] \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 a[] < b[] \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 a[] < b[]:a[] < b[]: i \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; []  ; n\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 :
+ []
+
+<Esterni/Altro/imgs/20250226_104634.jpg, id=159, 1871.99374pt x 1555.8125pt>
+File: Esterni/Altro/imgs/20250226_104634.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_104634.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_104634.jpg  used on input line 217.
+(pdftex.def)             Requested size: 318.67209pt x 264.84073pt.
+[10 <./Esterni/Altro/imgs/20250226_104634.jpg>]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+<Esterni/Altro/imgs/20250226_105033.jpg, id=166, 2890.8pt x 1641.13126pt>
+File: Esterni/Altro/imgs/20250226_105033.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_105033.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_105033.jpg  used on input line 227.
+(pdftex.def)             Requested size: 318.67209pt x 180.90062pt.
+<Esterni/Altro/imgs/20250226_105447.jpg, id=167, 2238.3625pt x 602.25pt>
+File: Esterni/Altro/imgs/20250226_105447.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/20250226_105447.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/20250226_105447.jpg  used on input line 240.
+(pdftex.def)             Requested size: 318.67209pt x 85.7388pt.
+[11 <./Esterni/Altro/imgs/20250226_105033.jpg> <./Esterni/Altro/imgs/20250226_105447.jpg>]
+<Esterni/Altro/imgs/t1.jpg, id=175, 808.01875pt x 512.91624pt>
+File: Esterni/Altro/imgs/t1.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t1.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t1.jpg  used on input line 257.
+(pdftex.def)             Requested size: 239.00558pt x 151.71596pt.
+<Esterni/Altro/imgs/t2.jpg, id=176, 853.1875pt x 491.8375pt>
+File: Esterni/Altro/imgs/t2.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t2.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t2.jpg  used on input line 265.
+(pdftex.def)             Requested size: 239.00558pt x 137.7811pt.
+ [12 <./Esterni/Altro/imgs/t1.jpg> <./Esterni/Altro/imgs/t2.jpg>]
+<Esterni/Altro/imgs/t3.jpg, id=184, 805.0075pt x 527.9725pt>
+File: Esterni/Altro/imgs/t3.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t3.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t3.jpg  used on input line 273.
+(pdftex.def)             Requested size: 239.00558pt x 156.7495pt.
+<Esterni/Altro/imgs/t4.jpg, id=185, 885.3075pt x 552.0625pt>
+File: Esterni/Altro/imgs/t4.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t4.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t4.jpg  used on input line 279.
+(pdftex.def)             Requested size: 239.00558pt x 149.03358pt.
+<Esterni/Altro/imgs/t5.jpg, id=186, 826.08624pt x 548.0475pt>
+File: Esterni/Altro/imgs/t5.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t5.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t5.jpg  used on input line 285.
+(pdftex.def)             Requested size: 239.00558pt x 158.56175pt.
+ [13 <./Esterni/Altro/imgs/t3.jpg> <./Esterni/Altro/imgs/t4.jpg> <./Esterni/Altro/imgs/t5.jpg>]
+<Esterni/Altro/imgs/t6.jpg, id=194, 808.01875pt x 564.1075pt>
+File: Esterni/Altro/imgs/t6.jpg Graphic file (type jpg)
+<use Esterni/Altro/imgs/t6.jpg>
+Package pdftex.def Info: Esterni/Altro/imgs/t6.jpg  used on input line 292.
+(pdftex.def)             Requested size: 239.00558pt x 166.85785pt.
+ [14 <./Esterni/Altro/imgs/t6.jpg>]) (capitoli/capitolo2.tex [15]
 Capitolo 2.
 ) (capitoli/capitolo3.tex) (capitoli/capitolo4.tex) (capitoli/capitolo5.tex) (capitoli/capitolo6.tex)
 
-LaTeX Warning: Empty bibliography on input line 144.
+LaTeX Warning: Empty bibliography on input line 146.
 
-[6
+[16
 
 ] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 555756000DEF4E1399F6455F6EDB9182;1316.
+(rerunfilecheck)             Checksum: 10B070D853B4E46C3F32BF8AF549FE31;1958.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42344 strings out of 474486
- 967895 string characters out of 5743755
- 1941542 words of memory out of 5000000
- 63966 multiletter control sequences out of 15000+600000
- 569570 words of font info for 78 fonts, out of 8000000 for 9000
+ 42588 strings out of 474486
+ 974178 string characters out of 5743755
+ 1951542 words of memory out of 5000000
+ 64162 multiletter control sequences out of 15000+600000
+ 569929 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,133p,803b,1345s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\giova\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 173738 bytes).
+ <C:\Users\giova\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 4636959 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

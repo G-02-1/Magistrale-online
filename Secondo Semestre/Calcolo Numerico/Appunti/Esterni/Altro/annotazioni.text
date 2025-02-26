@@ -21,8 +21,8 @@ INSERIRE UN'IMMAGINE
 
 \begin{figure}[h!]
     \centering 
-    \includegraphics[width=0.4\textwidth]{imgs/nome.png} 
-    \caption{bla bla bla \cite{se vuoi tu}.} 
+    \includegraphics[width=0.4\textwidth]{Esterni/Altro/imgs/nome.jpg} 
+    \caption{bla bla bla.} 
     \label{fig:bla bla bla} 
 \end{figure}
 

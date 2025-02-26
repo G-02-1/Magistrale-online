@@ -75,3 +75,226 @@ Dati in ingresso: $a\in\mathbb{R}, a > 0$
     \item Velocità di convergenza, quanto più $x_0$ è prossimo alla radice tanto migliore è la convergenza dell'algoritmo
     \item Criterio di arresto: \textit{Quando mi fermo per avere una buona approssimazione?} $x_n - x_{n-1} < \epsilon$.
 \end{enumerate}
+
+\subsection{Iterazione di Punto fisso}
+Una funzione $\mathit{f}:\mathbb{R}\rightarrow\mathbb{R}$ può avere o non avere un punto fisso\myfootnote{
+    La sua immagine è uguale a x stessa
+}.
+\begin{definition}
+    $x^*$ è un punto fisso per $\mathit{f}$ se $\mathit{f}(x^*) = x^*$.
+\end{definition}
+Si tratta di un punto che la funzione mappa in sé stessa.
+\todo{grafico delle slide + esempio 1}
+\newpage
+Per cosa utilizziamo un punto fisso?
+L'iterazione di punto fisso è uno dei modi per trovare le radici di una funzione, ovvero per risolvere un'equazione nella forma $\mathit{f}(x) = 0$:
+Si consideri le funzioni $\mathit{f}\cdot\mathit{g}: \mathbb{R} \rightarrow \mathbb{R}$. Se $\mathit{f}(x) = x - \mathit{g}$ allora:
+\begin{equation}
+    \mathit{f}(x^*) = 0 \leftrightarrow x^* = g(x^*)
+\end{equation}
+Un'idea per il calcolo del punto fisso $x^*$ consiste nel cercare di migliorare una stima iniziale $x_0$ mediante un provedimento iterativo\myfootnote{
+    Con processo iterativo si intende un procedimento più semplice del problema originale che a furia di essere applicato in modo sequenziale restituisce una possibile soluzione al problema.
+} del tipo seguente:
+\begin{equation}
+    x_{n+1} = g(x_n). \qquad n=0,1,2,\cdots
+\end{equation}
+\begin{nb}
+    La (1.2) corrisponde allo schema iterativo.
+\end{nb}
+La funzione $g(x)$ potrebbe produrre dei punti non ammissibili per la prossima funzione $g(x)$, per evitare che si fermi il programma bisogna \textbf{sempre} verificare l'ammissibilità dei punti.
+Per queste ragioni, nell'esempio 1 preferiremo $g_1(x)$. 
+\newline
+\textbf{La successione $\{x_n\}$ converge?} La convergenza di tale funzione è gata in primo luogo dal tipo specifico di funzione $\mathit{g}$\myfootnote{
+    La funzione $\mathit{g}$ può convergere per il punto fisso, non convergere per il punto fisso o non convergere per nessun punto.
+}, in secondo luogo dal punto $x_0$.
+\newline
+Il concetto ideale è trovare uno schema che converga in base a $\mathit{g}$ a prescindere da $x_0$.
+\newline
+\textbf{La successione $\{x_n\}$} \todo{}
+
+\newpage
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=1\textwidth]{Esterni/Altro/imgs/20250226_091358.jpg} 
+    \caption{Grafico di andamento del sistema iterativo.} 
+    \label{fig:grafico_andamento_sistema_iterativo} 
+\end{figure}
+
+\todo{commenti sul quaderno}
+\begin{notion}
+    La convergenza dipende dalla pendenza della curva ed è collegata alla definizione di contrattività.
+\end{notion}
+Per dire che la funzione $x$ è decrescente basta avere un coefficiente angolare negativo, in altre parole $g'(x) < 0$, tuttavia questo implicherebbe una pendenza forte, che noi non vogliamo altrimenti non è garantita la convergenza.
+Questo implica che $|g'(x)|$ deve essere sufficientemente piccolo.
+\todo{test grafico + pendente sul quad (controesempio)}
+\newline
+\begin{notion}
+    Se la derivata $g'(x)$ è sempre negativa, a prescindere dalla non derivata $g(x)$, la successione diverge.
+    \newline
+    Viceversa, se la derivata $|g'(x)|$ è sufficientemente piccola \textbf{(ma non troppo)} la funzione converge.    
+\end{notion}
+\todo{grafico con funzione crescente (sul quaderno)}
+\begin{definition}
+    $\mathit{g}(x)$ è contrattiva se esiste $0 < \lambda < 1$ tale che:
+    \begin{equation}
+        |g(x')-g(x'')|\leq \lambda|(x' - x'')|, \qquad \forall x',x''.        
+    \end{equation}
+\end{definition}
+\begin{theorem}
+    Sia $\mathit{g}(x)\in \mathcal{C}^1[a,b]$ tale che $\mathit{g}(x) \in [a,b]$ per tutti gli $x \in [a,b]$
+\end{theorem}
+\todo{continuare dalla foto sul cell}
+
+\newpage
+\begin{ex}
+    Calcolo dell'approssimazione della radice reale dell'equazione i Fibonacci:
+    \begin{displaymath}
+        x^3+2x^2+10x-20=0
+    \end{displaymath}
+    con le possibili funzioni di iterazioni:
+    \begin{displaymath}
+        g_1(x) = \frac{20}{x^2+2x+10}
+    \end{displaymath}
+    \begin{figure}[h!]
+        \centering 
+        \includegraphics[width=0.5\textwidth]{Esterni/Altro/imgs/20250226_095026.jpg} 
+        \caption{Grafico di iterazione Fib.1 (spirale mancante).} 
+        \label{fig:fib1} 
+    \end{figure}
+\end{ex}
+\begin{ex}
+    Calcolo dell'approssimazione della radice reale dell'equazione i Fibonacci:
+    \begin{displaymath}
+        x^3+2x^2+10x-20=0
+    \end{displaymath}
+    con le possibili funzioni di iterazioni:
+    \begin{displaymath}
+        g_2(x) = \frac{20-10x}{x^2+2x}
+    \end{displaymath}
+    \begin{figure}[h!]
+        \centering 
+        \includegraphics[width=0.5\textwidth]{Esterni/Altro/imgs/20250226_095154.jpg} 
+        \caption{Grafico di iterazione Fib.2 (spirale mancante).} 
+        \label{fig:fib2} 
+    \end{figure}
+\end{ex}
+
+\newpage
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/20250226_095648.jpg} 
+    \caption{Esempio di divergenza.} 
+    \label{fig:fib3} 
+\end{figure}
+
+\subsection{Metodi e processi iterativi}
+Spesso, vengono prodotte simulazioni per analizzare ottimi locali e globali, ad esempio:
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.8\textwidth]{Esterni/Altro/imgs/20250226_103050.jpg} 
+    \caption{Ottimizzazione Globale.} 
+    \label{fig:glob_ott} 
+\end{figure}
+tuttavia, per alcuni problemi ingegneristici non è sufficiente conoscere i massimi o minimi locali, bensì è importante studiare solo il caso peggiore o migliore (casi globali).
+Un esempio di questo tipo potrebbe essere l'esempio per il carico strutturale di una struttura, dove basta semplicemente conoscere il carico massimo supportato (che corrisponde al caso peggiore: il crollo della struttura).
+
+\newpage
+\begin{equation}
+    min(f(x)). \qquad x \in \Omega \subseteq \mathbb{R}^n. \qquad n\geq 1
+\end{equation}
+La funzione $f:\Omega \rightarrow \mathbb{R}$ è detta funzione obiettivo. $\Omega$ è un vettore che viene costruito a partire da un insieme semplice, come il rettagono generalizzato in fig[1.5]; 
+L'insieme $\Omega \subseteq \mathbb{R}^n$ è detto insieme (o regione) ammissibile:
+\begin{displaymath}
+    \Omega=\{x=(x_1,x_2, \cdots, x_n)\in D \subseteq \mathbb{R}^n: g_j(x)\leq 0. \qquad j = 1, 2, \cdots, m\};
+    D = \{x=(x_1,x_2, \cdots, x_n)\in \mathbb{R}^n:a_i<b_i\cdot a_i < b_i.a_i < b_i. \qquad i = 1, 2, \cdots, n\}.
+\end{displaymath}
+Vengono studiati esistenza ed unicità della soluzione, tramite il teorema di Weiestrass\myfootnote{
+        Se la funzione è continua in un intervallo (o regione) chiuso e limitato, la funzione raggiungerà dei punti massimi e minimi.
+    }.
+
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.8\textwidth]{Esterni/Altro/imgs/20250226_104634.jpg} 
+    \caption{Regione ammissibile del caso in analisi.} 
+    \label{fig:glob_ott_amm_reg} 
+\end{figure}
+
+\newpage
+\todo{def. min e max globale sul cell}
+Se siamo in possesso di una funzione che produce come output il minimo di una funzione, negando la funzione e cambiando di segno l'output, otterremo in output il massimo della funzione.
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.8\textwidth]{Esterni/Altro/imgs/20250226_105033.jpg} 
+    \caption{Regione ammissibile del caso in analisi.} 
+    \label{fig:glob_ott_amm_reg} 
+\end{figure}
+
+\subsubsection{Problema di ottimizzazione globale}
+Il problema in analisi è il seguente:
+\begin{displaymath}
+    f^* = f(x^*) = \min_{x \in [a, b]}f(x)
+\end{displaymath}
+La soluzione esiste (Teorema di Weiestrass) e supponiamo sia unica.
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.8\textwidth]{Esterni/Altro/imgs/20250226_105447.jpg} 
+    \caption{Regione ammissibile del caso in analisi.} 
+    \label{fig:glob_ott_amm_reg} 
+\end{figure}
+Solitamente la funzione viene data a scatola nera, spesso perché non esiste una vera e propria forma finita per descriverla, sappiamo solo che è continua.
+\newline
+Non essendo in possesso della formula analitica sarà impossibile utilizzare tecniche come derivate o minimi locali.
+
+\newpage
+Così si assume che la funzione vine data da un simulatore, poiché il costo computazionale è elevato a causa della sua rappresentazione analitica.
+La valutazione è costosa, per ragioni temporali o addirittura per prove fisiche, ergo sperimentazioni che comportano l'utilizzo di macchine.
+\newline 
+Seppur non conoscendo la funzione è possibile conoscere la famiglia della stessa funzione:
+\newline
+\textbf{Univotale:}
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t1.jpg} 
+    \caption{Funzione "univotale", possiede solo un minimo (questa è anche convessa).} 
+    \label{fig:type1} 
+\end{figure}
+\\
+\textbf{Multiestremale:}
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t2.jpg} 
+    \caption{Funzione "multiestremale", possiede più minimi e/o massimi locali.} 
+    \label{fig:type2} 
+\end{figure}
+
+\newpage
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t3.jpg} 
+    \caption{ Funzione "multivotale" ben condizionata, piccole perturbazioni non implicano grandi variazioni.} 
+    \label{fig:type3} 
+\end{figure}
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t4.jpg} 
+    \caption{ Funzione "multivotale" mal condizionata, piccole perturbazioni implicano grandi variazioni.} 
+    \label{fig:type4} 
+\end{figure}
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t5.jpg} 
+    \caption{ Funzione "multivotale" mal condizionata e costante (gravissimo), non ho possibilità di dare garanzie.} 
+    \label{fig:type5} 
+\end{figure}
+\newpage
+\begin{figure}[h!]
+    \centering 
+    \includegraphics[width=0.6\textwidth]{Esterni/Altro/imgs/t6.jpg} 
+    \caption{ Funzione "multivotale" mal condizionata a tal punto da essere inaccettabile poiché presenta punti infinitesimali indistinguibili.} 
+    \label{fig:type6} 
+\end{figure}
+
+\newpage
+\begin{notion}
+    Si può evincere dalla continuità delle sei funzioni presentate che, \textbf{la continuità della funzione non garantisce la bontà della soluzione}.
+\end{notion}
