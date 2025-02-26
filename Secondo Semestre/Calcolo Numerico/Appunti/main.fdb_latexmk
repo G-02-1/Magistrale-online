@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1740565726.59094 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1740578441.36947 0
   "bibliografia.bib" 0 -1 0 ""
   "main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1740565722.39668 "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" "main.pdf" "main" 1740565726.59165 0
+["pdflatex"] 1740578432.07611 "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" "main.pdf" "main" 1740578441.37014 0
   "C:/Users/giova/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737274550 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/giova/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1738403388 11548 e16efef37c2283f67388eb30f659952b ""
   "C:/Users/giova/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1733431169 24225046 cdd567a912dbef2da08d98f0d9e7468c ""
@@ -269,19 +269,19 @@
   "Esterni/Altro/imgs/t4.jpg" 1740564946 87364 e91018781b6a363fedd3c259fa503595 ""
   "Esterni/Altro/imgs/t5.jpg" 1740564984 78933 b0b1210b402998ade181a7343fb175c9 ""
   "Esterni/Altro/imgs/t6.jpg" 1740565006 77716 b289b15a03e47559a28a8894448f7beb ""
-  "capitoli/capitolo1.tex" 1740565718 14668 30b48a2c951c78541f375882ad73192d ""
+  "capitoli/capitolo1.tex" 1740578430 14668 ad5dfdb57d4d4adb48fa4f33c1d8be16 ""
   "capitoli/capitolo2.tex" 1740391206 41 127dbde8a8c5b1e3428ca9d07588c84d ""
   "capitoli/capitolo3.tex" 1740390833 0 d41d8cd98f00b204e9800998ecf8427e ""
   "capitoli/capitolo4.tex" 1740390854 0 d41d8cd98f00b204e9800998ecf8427e ""
   "capitoli/capitolo5.tex" 1740390861 0 d41d8cd98f00b204e9800998ecf8427e ""
   "capitoli/capitolo6.tex" 1740390872 0 d41d8cd98f00b204e9800998ecf8427e ""
   "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" 1740559866 3944 db27ee90b2af5c65cf7852eee8bb6811 ""
-  "main.aux" 1740565726 8728 1752066ec1aa2e8b1dbfd4ad28acb10f "pdflatex"
+  "main.aux" 1740578440 8728 1752066ec1aa2e8b1dbfd4ad28acb10f "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.out" 1740565726 1958 10b070d853b4e46c3f32bf8af549fe31 "pdflatex"
-  "main.run.xml" 1740565726 2307 bf6ceb3555aadcd71ee87d4770d42729 "pdflatex"
+  "main.out" 1740578440 1958 10b070d853b4e46c3f32bf8af549fe31 "pdflatex"
+  "main.run.xml" 1740578440 2307 bf6ceb3555aadcd71ee87d4770d42729 "pdflatex"
   "main.tex" 1740559866 3944 db27ee90b2af5c65cf7852eee8bb6811 ""
-  "main.toc" 1740565726 968 a8aec8f6eba8e6cf514d3671abeb72f5 "pdflatex"
+  "main.toc" 1740578442 968 a8aec8f6eba8e6cf514d3671abeb72f5 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
