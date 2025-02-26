@@ -1,0 +1,150 @@
+\documentclass[a4paper,12pt,oneside]{book} % A4 a pagina singola 12pt font
+\linespread{1.5} % interlinea
+\usepackage{geometry}
+\geometry{top=2cm,bottom=2cm,left=3.5cm,right=3.5cm} % Impostiamo il valore dei margini.
+\usepackage[utf8]{inputenc}
+\usepackage{tikz,pgf}
+\usepackage{amsfonts}
+\usepackage[italian]{babel} %% Abbiamo istruito LaTeX ad usare la lingua italiana.
+\usepackage{todonotes}
+\usepackage{subfig}
+\usepackage{fancyhdr}
+\setlength{\parindent}{0cm}
+
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=none
+]{biblatex}
+\addbibresource{bibliografia.bib}
+
+
+%TEOREMI E DEFINIZIONI:
+\usepackage{amsmath} %per teoremi ecc
+\usepackage{amsthm} %per le definizioni
+\newtheorem{theorem}{Teorema}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definizione}
+\newtheorem{notion}{Nozione}
+\newtheorem{conjecture}{Congettura}
+\newtheorem{nb}{Nota Bene}
+\newtheorem{ex}{Esempio}
+
+%Fare un comando per gli esempi
+
+%NOTE A PIE' DI PAGINA:
+\newcounter{myfootnote}
+\setcounter{myfootnote}{1}
+
+\newcommand{\myfootnote}[1]{%
+    \textsuperscript{\arabic{myfootnote}}%
+    \footnotetext[\arabic{myfootnote}]{#1}%
+    \stepcounter{myfootnote}%
+}
+
+%SCHEMI DA LIBRO
+%\usepackage{booktabs} % Per le linee più spesse
+\usepackage{array} %per rappresentare gli array
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{numprint}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{tocbibind}
+\setcounter{tocdepth}{3}
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\fancyhead[L]{}
+\fancyfoot[C]{\thepage}
+
+\graphicspath{{imgs/}} %% cartella dalla quale ricavare le immagini %%
+
+\setlength {\marginparwidth }{2cm} 
+\pgfplotsset{compat=1.16}
+
+\newenvironment{dedication}
+  {\clearpage           % we want a new page
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top 
+   \itshape             % the text is in italics
+   \raggedleft          % flush to the right margin
+  }
+   {\par % end the paragraph
+   \vspace{\stretch{3}} % space at bottom is three times that at the top
+   \clearpage           % finish off the page
+  }
+  
+\begin{document}
+%% Frontespizio %%
+\begin{titlepage}
+    \begin{center}
+    \vspace*{0.2cm}
+    \begin{figure}[H]
+        \centering
+        %%\includegraphics[width=0.8\textwidth]{imgs/logo.png}
+    \end{figure}
+        \vspace{5mm}
+%% Dipartimento %%
+    	\uppercase{\normalsize Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica}\\
+    \end{center}
+    \begin{center}
+%% Corso di Laurea %%
+    	\large{ Corso di Laurea Triennale in Ingegneria Informatica}\\
+        \vspace{3mm}
+        \large{\bf Tesi di Laurea}\\
+    	\vspace{10mm}
+%% Titolo della Tesi %%
+    {\LARGE{\bf Crittografia quantistica e cyber security}}\\	
+     \vspace{7mm}
+    \end{center}
+    
+    \vspace{25mm}
+    \noindent
+    \begin{minipage}[t]{0.47\textwidth}
+%% Relatore %%
+    	{\large{ Relatore:\vspace*{0.22cm}\\\bf Prof. \\Floriano De Rango}}
+    	\vspace{12mm}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.4\textwidth}\raggedleft
+%% Candidato %%
+    	{\large{Candidato: \\ \bf Giovanni Lorenzo Murfuni\\ Mat. 230599}}
+    \end{minipage}
+    
+    \vspace{30mm}
+    
+%% Anno Accademico %%
+    \centering{\large \uppercase{ Anno Accademico 23/24}}
+
+\end{titlepage}
+
+\begin{dedication}
+Dedica e Ringraziamenti...
+\end{dedication}
+
+%% Corpo della tesi %%
+
+%%\chapter*{Sommario} %% In questa zona inseriamo l'abstract del nostro documento. %%
+%%Inserisci abstract: ...
+
+
+\tableofcontents
+\input{capitoli/capitolo1}
+\input{capitoli/capitolo2}
+\input{capitoli/capitolo3}
+\input{capitoli/capitolo4}
+\input{capitoli/capitolo5}
+\input{capitoli/capitolo6}
+
+\printbibliography
+
+%ringraziamenti
+
+\end{document}
