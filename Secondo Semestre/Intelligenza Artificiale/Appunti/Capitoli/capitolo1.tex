@@ -56,3 +56,91 @@ Durante il corso, verranno esplorate vari temi cruciali come:
     \item Teoria dei giochi (esempio della cooperazione dei detenuti, concetto strettamente connesso al "problema di Nash").
     \item Fair Division And Fair Allocation Problem
 \end{itemize}
+
+\subsubsection{Approcci alla modellazione}
+\textbf{Common-Sense-Reasoning (Dal modello all'inferenza)} \todo{Controllare dalle slide "Lezione 1"}
+\begin{itemize}
+    \item Model
+    \item Inference
+    \item New Data
+\end{itemize}
+\textbf{Data $\rightarrow$ Model}
+\begin{itemize}
+    \item Machine Learning
+    \item Correlation
+    \item Causality: Qual'è la causa dell'evento in questione? La corrispondenza ad un modello statistico non implica necessariamente un contesto di casualità diretta.
+\end{itemize}
+
+\newpage
+\subsubsection{Neural Networks}
+Le reti neurali sono composte da neuroni artificiali che calcolano una funzione restituendo un output in base all'input processato (parametri calcolati nella rete). Ogni neurone della rete potrebbe 
+anche avere funzioni diverse (solitamente tutti i neuroni hanno la stessa funzione).
+Nelle reti neurali, abbiamo due gradi di libertà:
+\begin{enumerate}
+    \item Struttura della rete:
+        \begin{itemize}
+            \item Topologia della rete.
+            \item Tipo di funzioni.
+        \end{itemize}
+    \item I parametri delle funzioni utilizzate.
+\end{enumerate}
+Per ogni input da processare è possibile associarvi un peso. Modificando tali pesi è possibile cambiare il significato della funzione.
+\newline
+Il "Machine Learning" consiste nell'estrazione di un modello a partire da un dataset specifico. 
+Il problema è di questa tipologia: 
+\todo{fig.1 sul quad 27/02}
+In molti casi non si possiede alcuna garanzia sulla bontà dell'output, impedendo al modello addestrato di effettuare una generalizzazione del modello reale.\myfootnote{
+    Il modello addestato è imprevedibile quando si ha a che fare con input mai visti prima.
+}
+In genere il modello addestrato, viene allenato su un "training set" (o insieme di allenamento). 
+\newline
+Tornando alla Fig[1.0], perché il modello è considerato una "black box"? 
+Tale denominazione è dovuta all'incapacità di interpretare i parametri (incapacità dell'essere umano).
+\newline
+Il problema dell'interpretazione implica, inequivocabilmente, un problema di spiegabilità. Tale problematica è cruciale per ambienti delicati come: medicina, biologia, economia ecc.
+\newline
+\capitalgrave{E} possibile trovare tali problemi anche in: SVM, Decision Trees, ecc.
+Altri problemi che possiamo incontrare sul modello addestrato sono: 
+\begin{itemize}
+    \item Overfitting: modello troppo specifico al training set.
+    \item Underfittin: modello troppo generalizzato rispetto al training set.
+\end{itemize}\todo{Cercare le definizioni corrette}
+
+\newpage
+\todo{Problema della curva di regressione, prendere fig.2 su quad 27/02}
+\subsubsection{Agenti}
+Gli agenti sono strumenti molto utilizzati in questo ambito, si distinguono in varie tipologie:
+\begin{itemize}
+    \item Reflex: Sono agenti ai quali viene detto cosa fare in base al contesto in cui si trovano.
+    \item Planning: Sono agenti che hanno un obiettivo specifico, devono essere in grado di inventare dei piani (plan o stategia) per raggiungere il loro obiettivo (goal).
+    \item Utilitiy-Based: Sono agenti che hanno un obiettivo specifico e dei requisiti, devono essere in grado di creare un plan per raggiungere il goal soddisfando i requisiti specificati.
+\end{itemize}
+Alcuni sistemi si compongono di più agenti, è il caso dei multiple-agents.
+Gli agenti PEAS (Performance, Envitoment, Actuators, Sensors), servono a valtuare: l'abilità, la capacità di conoscere l'ambiente, la capacità di agire nell'ambiente e la misurazione dell'ambiente.
+Tali ambienti sono i più completi perché possono agire concretamente sull'ambiente.
+L'osservazione dell'ambiente può essere di due tipi:
+\begin{itemize}
+    \item Completa. 
+    \item Parziale.
+\end{itemize}  
+L'azione nell'ambiente, invece, può essere stocastica (o probabilistica), casi in cui non si hanno tutte le informazioni necessarie per essere sicuri dell'effetto causato.
+L'ambiente in sé può essere: statico o dinamico. In altre parole, tali caratteristiche rappresentano la capacità dell'ambiente di cambiare o rimanere invariato.
+Un ambiente statico o sicuro può diventare insicuro se ci sono "Multiple Agents", implica la combinazione delle attività così come quella delle incertezze.
+
+\todo{recuperare gli appunti da ciccio DeM}
+
+\newpage
+\newpage
+\section{Algoritmo Free Search}
+Dato il nodo corrente, valutiamo le possibili azioni.
+\todo{fig.1 28/02} 
+Aggiungo $d$, $p$, $e$ alla "fringe" $F$ (opportuna struttura dati).
+Estraggo un nodo da $F$, suppress $d$.
+\todo{fig.2 28/02}
+Aggiungo $b$, $c$, $e$ ad F.
+A questo punto i nodi che abbiamo visitato sono $s$ e $d$, ovvero tutti quei nodi di cui conosciamo i successivi.
+Se solo uno di questi nodi fosse il Goal a quest'ora avremmo finito. \todo{slide 13 lez 1}
+\newline
+Quello che avviene nella fringe è fondamentale per raggiungere il goal giusto.
+\newline
+\todo{slide 15 esempio}
