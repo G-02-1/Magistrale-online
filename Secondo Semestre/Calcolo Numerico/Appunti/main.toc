@@ -11,3 +11,7 @@
 \contentsline {subsection}{\numberline {1.2.4}Metodi e processi iterativi}{9}{subsection.1.2.4}%
 \contentsline {subsubsection}{Problema di ottimizzazione globale}{11}{section*.21}%
 \contentsline {chapter}{\numberline {2}Analisi degli errori numerici }{16}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Esercitazioni}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Esercitazione 1}{17}{section.3.1}%
+\contentsline {subsubsection}{MATLAB}{17}{section*.29}%
+\contentsline {subsubsection}{Sintassi}{17}{section*.30}%

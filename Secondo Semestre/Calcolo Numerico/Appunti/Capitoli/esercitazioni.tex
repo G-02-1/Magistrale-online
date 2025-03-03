@@ -1,0 +1,64 @@
+\chapter{Esercitazioni}
+\textbf{Contatto: } francesco.toscarella@unical.it
+\newline
+\section{Esercitazione 1}
+\subsubsection{MATLAB}
+MATLAB\myfootnote{
+    MATrix LABoratory (non Mathematical Laboratory).
+} è un software di calcolo. Una sua caratteristica è quella di vedere ogni tipo di input come una matrice, per intenderci, uno scalare in MATLAB è una matrice $1\times 1$.
+MATLAB è a pagamento, tuttavia, esistono molte alternative come "Scilab" o "Octab" che invece sono gratuite\myfootnote{
+    Sul web è possibile trovare anche traduttori da MATLAB a Scilab.
+}.
+\subsubsection{Sintassi}
+MATLAB è case sensitive.
+\begin{itemize}
+    \item a = 1 $\rightarrow$ istanzia la variabile e ne stampa subito il risultato.
+    \item b = 1; $\rightarrow$ istanzia la variabile e non stampa il risultato.
+    \item ans $\rightarrow$ è una variabile temporanea che prende il valore risultato da un operazione che abbiamo eseguito.
+    \item clear $\rightarrow$ pulisce tutto il workspace.
+    \newpage
+    \item vector = {1 2 3} oppure {1,2,3} $\rightarrow$ definisce un vettore riga vector.
+    \item vector = {1; 2; 3} $\rightarrow$ definisce un vettore colonna vector.
+    \item matrix = matrice $\rightarrow$ definisce una matrice matrix.
+    \item +,-,/,* $\rightarrow$ operazioni aritmetiche.
+    \item length(x) $\rightarrow$ restituisce la dimensione maggiore della matrice, ad esempio vettore riga $1\times 4$ restituisce $4$, un vettore colonna $5\times 1$ restituisce $5$.
+    \item $mat\_a \quad .* \quad mat\_b;$ $\rightarrow$ prodotto tra due matrici, \textbf{elemento per elemento}.
+    \item $mat\_a \quad * \quad mat\_b;$ $\rightarrow$ prodotto matriciale, \textbf{riga per colonna}.
+    \item $mat\_a \quad ./ \quad mat\_b;$ $\rightarrow$ divisione tra due matrici, \textbf{elemento fratto elemento}.
+    \item $mat\_a \quad / \quad mat\_b;$ $\rightarrow$ divisione matriciale, \textbf{riga fratto colonna}.
+    \item a = ciao $\rightarrow$ verrà visto come una matrice $1 \times 4$
+    \item strcat(x,y) $\rightarrow$ concatena due stringhe.
+    \item abs(x) $\rightarrow$ valore assoluto.
+    \item log(x) $\rightarrow$ logaritmo naturale.
+    \item log10(x) $\rightarrow$ logaritmo in base 10.
+    \item sqrt(x) $\rightarrow$ radice quadrata.
+    \item exp(x) $\rightarrow$ esponenziale: $e^x$.
+    \item zeros(n, m) $\rightarrow$ matrice di zeri di dimensione $n_righe \times m_colonne$.
+    \item ones(n, m) $\rightarrow$ matrice di uno di dimensione $n_righe \times m_colonne$.
+    \item zeros($n_1,n_2, \cdots, n_k$) oppure ones($n_1,n_2, \cdots, n_k$) $\rightarrow$ è possibile mettere quante dimensioni si vogliono.
+    \item eye(n, m) $\rightarrow$ matrice identità di dimensione $n_righe \times m_colonne$.
+    \item format long/short $\rightarrow$ mostra più o meno cifre significative.
+    \newpage
+    \item if condition
+        \newline
+        a = 1;
+        \newline
+        elseif condition
+        \newline
+        a = 2;
+        \newline
+        else
+        \newline
+        a = 3; $\rightarrow$ condizioni if, elseif, else.
+    \item for i = 1:passo:x
+        \newline
+        ...codice...
+        \newline
+        end $\rightarrow$ ciclo for da 1 a x. NB: I vettori in MATLAB vanno da 1 in poi, il for può andare da $-\infty$ a $+\infty$, ma i vettori no.   
+    \item while condition:
+        \newline
+        ...codice...
+        \newline
+        end $\rightarrow$ ciclo while.
+\end{itemize} 
+\todo{guardare lo script che dovrebbe caricare}

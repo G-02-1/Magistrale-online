@@ -1,16 +1,18 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1740578441.36947 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1740997100.05834 0
   "bibliografia.bib" 0 -1 0 ""
   "main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1740578432.07611 "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" "main.pdf" "main" 1740578441.37014 0
+["pdflatex"] 1740997095.01692 "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" "main.pdf" "main" 1740997100.05914 0
   "C:/Users/giova/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737274550 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/giova/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1738403388 11548 e16efef37c2283f67388eb30f659952b ""
+  "C:/Users/giova/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1733431451 14064 2906df55b91545104282225557c5f364 ""
   "C:/Users/giova/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1733431169 24225046 cdd567a912dbef2da08d98f0d9e7468c ""
   "C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
+  "C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993058908 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/giova/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -275,13 +277,14 @@
   "capitoli/capitolo4.tex" 1740390854 0 d41d8cd98f00b204e9800998ecf8427e ""
   "capitoli/capitolo5.tex" 1740390861 0 d41d8cd98f00b204e9800998ecf8427e ""
   "capitoli/capitolo6.tex" 1740390872 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" 1740559866 3944 db27ee90b2af5c65cf7852eee8bb6811 ""
-  "main.aux" 1740578440 8728 1752066ec1aa2e8b1dbfd4ad28acb10f "pdflatex"
+  "capitoli/esercitazioni.tex" 1740997090 3552 f6fbec845078f61b9ac13dd07eb06da8 ""
+  "d:/Università/Magistrale-online/Secondo Semestre/Calcolo Numerico/Appunti/main.tex" 1740996968 3976 80c3b77e17d74b951357ce23dcbce83e ""
+  "main.aux" 1740997100 9484 75433d7d7c4cd54430907ec7d63b0333 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.out" 1740578440 1958 10b070d853b4e46c3f32bf8af549fe31 "pdflatex"
-  "main.run.xml" 1740578440 2307 bf6ceb3555aadcd71ee87d4770d42729 "pdflatex"
-  "main.tex" 1740559866 3944 db27ee90b2af5c65cf7852eee8bb6811 ""
-  "main.toc" 1740578442 968 a8aec8f6eba8e6cf514d3671abeb72f5 "pdflatex"
+  "main.out" 1740997100 2384 aa76181ec1d2db76074c32732a7ea3fe "pdflatex"
+  "main.run.xml" 1740997100 2307 bf6ceb3555aadcd71ee87d4770d42729 "pdflatex"
+  "main.tex" 1740996968 3976 80c3b77e17d74b951357ce23dcbce83e ""
+  "main.toc" 1740997100 1228 1e6d7b8e0f14e15817248288f88edbad "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
