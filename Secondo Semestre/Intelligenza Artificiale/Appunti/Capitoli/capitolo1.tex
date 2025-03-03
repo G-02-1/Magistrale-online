@@ -134,7 +134,7 @@ Un ambiente statico o sicuro può diventare insicuro se ci sono "Multiple Agents
 \section{Algoritmo Free Search}
 Dato il nodo corrente, valutiamo le possibili azioni.
 \todo{fig.1 28/02} 
-Aggiungo $d$, $p$, $e$ alla "fringe" $F$ (opportuna struttura dati).
+Aggiungo $d$, $p$, $e$ alla "fringe" (o frangia) $F$ (opportuna struttura dati).
 Estraggo un nodo da $F$, suppress $d$.
 \todo{fig.2 28/02}
 Aggiungo $b$, $c$, $e$ ad F.
@@ -144,3 +144,20 @@ Se solo uno di questi nodi fosse il Goal a quest'ora avremmo finito. \todo{slide
 Quello che avviene nella fringe è fondamentale per raggiungere il goal giusto.
 \newline
 \todo{slide 15 esempio}
+Possiamo implementare la frangia come una pila (stack) o come una coda (queue), il che ci conduce a due tipi di visite per il grafo, in profondità (stack) e quella per livelli (queue).
+\newline
+La stratrgia vista in precedenza (a pila) è corretta, ma non completa.
+Utilizziamo adesso una strategia a queue (o coda).
+\todo{fig.3 28/02}
+\newline
+\todo{fig.4 28/02}
+Dovendo tenere conto anche dei pesi del camnmino la cosa migliore sarebbe una priority queue.
+
+\todo{Appunti lezione 3 Cartella Altro/File/ciccio De M}
+
+\todo{fig.1 030325 lezione 4}
+
+\subsection{Informed Search}
+Una delle possibili funzioni che dato un input ci restituisce il numero di stati possibili, nel caso di pacman potrebbe basarsi sulla distanza di manahttan, che considera la distanza orizzontale sommata alla distanza verticale.
+Tutto ciò poiché è la più realistica se non dovessimo avere a che fare con ostacoli interni.ù
+\subsection{Greedy Search}

@@ -9,6 +9,7 @@
 \contentsline {subsubsection}{Neural Networks}{6}{section*.7}%
 \contentsline {subsubsection}{Agenti}{7}{section*.11}%
 \contentsline {section}{\numberline {1.2}Algoritmo Free Search}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Informed Search}{8}{subsection.1.2.1}%
 \contentsline {chapter}{\numberline {2}Capitolo}{9}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Capitolo}{10}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Capitolo}{11}{chapter.4}%
